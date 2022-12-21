@@ -1,5 +1,4 @@
 import streamlit as st
-import re
 # import inflect
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
@@ -25,8 +24,6 @@ def prep_text(text):
         word_tokens = [word_token for word_token in word_tokens if word_token not in punctuations]
         clean_sents.append(' '.join((word_tokens)))
     joined = ' '.join(clean_sents).strip(' ')
-    joined = re.sub(r'`', "", joined)
-    joined = re.sub(r'"', "", joined)
     return joined
 
 
