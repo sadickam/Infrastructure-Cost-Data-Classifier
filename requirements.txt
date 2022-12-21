@@ -4,4 +4,3 @@ plotly
 pandas
 nltk
 streamlit
-re
