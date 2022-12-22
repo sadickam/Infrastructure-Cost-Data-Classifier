@@ -142,7 +142,7 @@ if submitted:
 
         fig.update_layout(
             # barmode='stack',
-            template='seaborn',
+            #template='seaborn',
             font=dict(
                 family="Arial",
                 size=14,
@@ -210,7 +210,7 @@ if submitted:
 
         fig.update_layout(
             # barmode='stack',
-            template='plotly',
+            #template='plotly',
             font=dict(
                 family="Arial",
                 size=14,
