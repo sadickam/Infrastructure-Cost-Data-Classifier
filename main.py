@@ -57,7 +57,7 @@ st.set_page_config(
     page_title="Cost Data Classifier", layout= "wide", initial_sidebar_state="auto", page_icon="🚦"
 )
 
-st.title("🚦 AI Infrastructure Cost Data Classifier")
+st.title("💷 AI Infrastructure Cost Data Classifier")
 # st.header("")
 
 with st.expander("About this app", expanded=False):
