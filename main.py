@@ -54,7 +54,7 @@ def load_tokenizer_2():
 
 
 st.set_page_config(
-    page_title="Cost Data Classifier", layout= "wide", initial_sidebar_state="auto", page_icon="🚦"
+    page_title="Cost Data Classifier", layout= "wide", initial_sidebar_state="auto", page_icon="💷"
 )
 
 st.title("💷 AI Infrastructure Cost Data Classifier")
